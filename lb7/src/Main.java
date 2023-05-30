@@ -21,21 +21,21 @@ public class Main {
             return n * factorial(n - 1);
         }
         public double calculate2() {
-            if(a-b!=0)
-                return (a + b) / (a - b);
-            else
-                return -1;
+            if(a-b!=0){
+                return (a + b) / (a - b);}
+            else{
+                return -1;}
         }
         public double calculate3() {
             if(b!=0) {
                 double temp = (a * x) / b;
-                if(temp%1==0)
-                    return factorial(temp);
-                else
-                    return -1;
+                if(temp%1==0){
+                    return factorial(temp);}
+                else{
+                    return -1;}
             }
-            else
-                return -1;
+            else{
+                return -1;}
         }
     }
 }
